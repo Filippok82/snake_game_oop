@@ -1,0 +1,15 @@
+C:\Users\Ирина\source\repos\Snake_oop\bin\Debug\net6.0\Snake_oop.exe
+C:\Users\Ирина\source\repos\Snake_oop\bin\Debug\net6.0\Snake_oop.deps.json
+C:\Users\Ирина\source\repos\Snake_oop\bin\Debug\net6.0\Snake_oop.runtimeconfig.json
+C:\Users\Ирина\source\repos\Snake_oop\bin\Debug\net6.0\Snake_oop.dll
+C:\Users\Ирина\source\repos\Snake_oop\bin\Debug\net6.0\ref\Snake_oop.dll
+C:\Users\Ирина\source\repos\Snake_oop\bin\Debug\net6.0\Snake_oop.pdb
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.csproj.AssemblyReference.cache
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.AssemblyInfoInputs.cache
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.AssemblyInfo.cs
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.csproj.CoreCompileInputs.cache
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.dll
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\ref\Snake_oop.dll
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.pdb
+C:\Users\Ирина\source\repos\Snake_oop\obj\Debug\net6.0\Snake_oop.genruntimeconfig.cache

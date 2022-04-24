@@ -1,23 +1,35 @@
 ﻿
-using Snake;
 using Snake_oop;
+using System;
+using System.Collections.Generic;
 
-class Program
-{
+
+
+namespace Snake_oop;
+
+    class Program
+    {
     static void Main(string[] args)
     {
+        Console.SetWindowSize(1, 1);
+        Console.SetWindowSize(80, 35);
+        Console.SetBufferSize(80, 35);
 
-        Point p1 = new Point(1, 3, '*');
-        p1.Draw();
+        Point p = new Point(4, 3, '+');
+        p.Draw();
 
 
-        Point p2 = new Point(5, 7, '#');
-        p2.Draw();
+        HorizontalLine upLine = new HorizontalLine(0, 78, 0, '*');
+        upLine.Drow();
+        HorizontalLine downLine = new HorizontalLine(0, 78, 24, '*');
+        downLine.Drow();
+        VerticalLine leftLine = new VerticalLine(0,24, 0, '*');
+        leftLine.Drow();
+        VerticalLine rightLine = new VerticalLine(0, 24, 78, '*');
+        rightLine.Drow();
 
-        HorizontalLine line = new HorizontalLine(5,10,8,'+');
-        line.Drow();
 
-        Console.ReadLine();
+
     }
-
-}
+    }
+    

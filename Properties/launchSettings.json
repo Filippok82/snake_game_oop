@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Snake_oop": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

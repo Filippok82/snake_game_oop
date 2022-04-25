@@ -8,8 +8,8 @@ namespace Snake_oop
 {
     public enum Direction
     {
-        LEFT,
         RIGHT,
+        LEFT,
         UP,
         DOWN
     }

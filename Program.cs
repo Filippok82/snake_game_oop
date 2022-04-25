@@ -15,8 +15,9 @@ namespace Snake_oop;
         Console.SetWindowSize(80, 35);
         Console.SetBufferSize(80, 35);
 
-        Point p = new Point(4, 3, '+');
-        p.Draw();
+         Point p = new Point(4, 3, '+');
+        Snake snake = new Snake(p, 4, Direction.RIGHT);
+        snake.Drow();
 
 
         HorizontalLine upLine = new HorizontalLine(0, 78, 0, '*');
@@ -28,8 +29,8 @@ namespace Snake_oop;
         VerticalLine rightLine = new VerticalLine(0, 24, 78, '*');
         rightLine.Drow();
 
-
+       
 
     }
-    }
+}
     

@@ -8,8 +8,7 @@ namespace Snake_oop
 {
 	internal class Snake : Figure
 	{
-		public Direction direction;
-
+		Direction direction;
 
 		public Snake(Point tail, int length, Direction _direction)
 		{
@@ -40,6 +39,17 @@ namespace Snake_oop
 			Point nextPoint = new Point(head);
 			nextPoint.Move(1, direction);
 			return nextPoint;
+		}
+
+		internal bool IsHitTail()
+		{
+			var head = pList.Last();
+			for (int i = 0; i < pList.Count - 2; i++)
+			{
+				if (head.IsHit(pList[i]))
+					return true;
+			}
+			return false;
 		}
 
 		public void HandleKey(ConsoleKey key)

@@ -8,9 +8,9 @@ namespace Snake_oop
 {
     internal class FoodCreator
 	{
-		int mapWidht;
-		int mapHeight;
-		char sym;
+		private int mapWidht;
+		private int mapHeight;
+		private char sym;
 
 		Random random = new Random();
 
@@ -28,5 +28,5 @@ namespace Snake_oop
 			return new Point(x, y, sym);
 		}
 	
-}
+	}
 }
